@@ -11,7 +11,7 @@
 		}
 	}
 	dependencies {
-    	implementation 'com.github.flyingtercel:SimpleWheelView:Tag'
+    	implementation 'com.github.flyingtercel:SimpleWheelView:1.0.4'
     }
 ```
 ### 2在布局中引用
