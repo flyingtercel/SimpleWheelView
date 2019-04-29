@@ -4,7 +4,6 @@ group = 'com.github.flyingtercel@163.com'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.mifeng.us.wheelview"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
