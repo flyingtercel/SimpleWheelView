@@ -12,7 +12,7 @@
      }
      
      dependencies {
-    	implementation 'com.github.flyingtercel:SimpleWheelView:1.0.4'
+    	implementation 'com.github.flyingtercel:SimpleWheelView:1.2.0'
     }
 ```
 ### 2在布局中引用
