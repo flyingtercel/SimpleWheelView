@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mifeng.us.wheelview.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="继承View的自定义滚动控件"/>
+
+
+    <com.mifeng.us.widget.WheelView
+        android:id="@+id/mWheelView"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        app:normalTextColor="#999999"
+        app:normalTextSize="14sp"
+        app:selectedTextColor="#333333"
+        app:selectedTextSize="16sp"
+        app:itemNumber="7"
+        app:lineHeight="1dp"
+        app:lineColor="#cc0000"
+        app:isCyclic="false"
+        app:noEmpty="false"/>
+
+</LinearLayout>
