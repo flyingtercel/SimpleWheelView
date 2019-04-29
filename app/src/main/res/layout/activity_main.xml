@@ -17,9 +17,24 @@
         android:text="继承View的自定义滚动控件"/>
 
 
+    <TextView
+        android:id="@+id/mTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff0000" />
+
+
     <com.mifeng.us.widget.WheelView
         android:id="@+id/mWheelView"
         android:layout_width="match_parent"
+        android:layout_marginTop="35dp"
         android:layout_height="235dp"
         app:normalTextColor="#999999"
         app:normalTextSize="14sp"
