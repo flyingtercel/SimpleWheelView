@@ -1,6 +1,6 @@
 # SimpleWheelView
 继承View实现简单的滚轮控件
-![image]()
+![image](https://github.com/flyingtercel/SimpleWheelView/blob/master/gif/wheel.gif)
 
 ### 1添加依赖
 ```
