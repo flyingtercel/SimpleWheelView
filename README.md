@@ -9,8 +9,9 @@
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}
-	dependencies {
+     }
+     
+     dependencies {
     	implementation 'com.github.flyingtercel:SimpleWheelView:1.0.4'
     }
 ```
